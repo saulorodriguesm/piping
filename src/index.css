@@ -2,13 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
-  font-family: "Abeatby";
-  src: url(./fonts/abeatbyKaiRegular.otf);
-}
 * {
-  font-family: "Abeatby";
+  color: #18436e;
 }
-body {
-  background-color: #fff;
+
+h3 {
+  font-size: 1.8rem;
+  margin: 1rem 0;
 }
