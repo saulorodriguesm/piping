@@ -21,7 +21,7 @@ function App() {
       </div>
       <div className="bg-cover bg-worker h-screen">
         <div className="max-w-screen-xl m-auto flex items-center h-full justify-end">
-          <div className="pr-10">
+          <div className="pr-5">
             {" "}
             <h1 className="text-5xl">Simplifique com a πping</h1>
             <h2 className="text-1xl">
@@ -33,9 +33,8 @@ function App() {
           </div>
         </div>
       </div>
-      <div className="max-w-screen-xl m-auto ">
-        <div className="py-6 px-10">
-          {" "}
+      <div className="py-7 px-10 ">
+        <div className="max-w-screen-xl m-auto ">
           <h3> Sobre </h3>
           <div className="text-justify">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis
@@ -48,10 +47,45 @@ function App() {
             ipsa. Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
             recusandae ratione reiciendis porro illo provident at? Omnis nemo,
             quia repudiandae iusto, cupiditate culpa dicta tenetur
+            exercitationem magni accusamus tempora sit! Lorem ipsum dolor sit
+            amet, consectetur adipisicing elit. Officiis explicabo voluptate
+            eligendi molestiae velit quod, consectetur debitis provident modi
+            ipsa rerum vitae mollitia perspiciatis eaque doloribus odit. Iusto,
+            saepe accusamus? Lorem ipsum dolor sit amet, consectetur adipisicing
+            elit. Soluta quidem similique inventore dignissimos nesciunt facilis
+            cumque, sint sunt modi nisi placeat dolorem odio laudantium aperiam
+            doloremque! Facilis quos recusandae ipsa. Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Omnis recusandae ratione reiciendis
+            porro illo provident at? Omnis nemo, quia repudiandae iusto,
+            cupiditate culpa dicta tenetur exercitationem magni accusamus
+            tempora sit!Lorem ipsum dolor sit amet, consectetur adipisicing
+            elit. Officiis explicabo voluptate eligendi molestiae velit quod,
+            consectetur debitis provident modi ipsa rerum vitae mollitia
+            perspiciatis eaque doloribus odit. Iusto, saepe accusamus? Lorem
+            ipsum dolor sit amet, consectetur adipisicing elit. Soluta quidem
+            similique inventore dignissimos nesciunt facilis cumque, sint sunt
+            modi nisi placeat dolorem odio laudantium aperiam doloremque!
+            Facilis quos recusandae ipsa. Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Omnis recusandae ratione reiciendis porro illo
+            provident at? Omnis nemo, quia repudiandae iusto, cupiditate culpa
+            dicta tenetur exercitationem magni accusamus tempora sit!Lorem ipsum
+            dolor sit amet, consectetur adipisicing elit. Officiis explicabo
+            voluptate eligendi molestiae velit quod, consectetur debitis
+            provident modi ipsa rerum vitae mollitia perspiciatis eaque
+            doloribus odit. Iusto, saepe accusamus? Lorem ipsum dolor sit amet,
+            consectetur adipisicing elit. Soluta quidem similique inventore
+            dignissimos nesciunt facilis cumque, sint sunt modi nisi placeat
+            dolorem odio laudantium aperiam doloremque! Facilis quos recusandae
+            ipsa. Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
+            recusandae ratione reiciendis porro illo provident at? Omnis nemo,
+            quia repudiandae iusto, cupiditate culpa dicta tenetur
             exercitationem magni accusamus tempora sit!
-          </div>
-        </div>
-        <div className="py-6 px-10 bg-off-white">
+          </div>{" "}
+        </div>{" "}
+      </div>
+
+      <div className="py-7 px-10 bg-off-white">
+        <div className="max-w-screen-xl m-auto">
           <h3> Conheça o time</h3>
           <div className=" justify-around w-100">
             <div className="flex w-100">
@@ -76,10 +110,13 @@ function App() {
           </div>
         </div>
       </div>
-      <div className="py-6 px-10">
-        <h3> Projetos </h3>
 
-        </div> 
+      <div className="py-7 px-10">
+        <div className="max-w-screen-xl m-auto ">
+          <h3> Projetos </h3>
+        </div>
+      </div>
+
       <div className="bg-piping-blue text-white text-center">
         {" "}
         desenvolvido por Saulo Rodrigues{" "}
