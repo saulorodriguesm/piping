@@ -13,6 +13,9 @@ export default {
         "off-white": "#f0f0f0",
         "piping-blue": "#18436e",
       },
+      borderColor: {
+        "piping-blue": "#18436e",
+      },
     },
   },
   plugins: [],
