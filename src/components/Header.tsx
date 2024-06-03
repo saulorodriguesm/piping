@@ -10,15 +10,24 @@ const Header = () => {
         </div>
 
         <div className="flex items-center">
-          <div className="mx-2.5 hover:opacity-70 cursor-pointer text-2xl">
+          <a
+            href="#about"
+            className="mx-2.5 hover:opacity-70 cursor-pointer text-2xl"
+          >
             sobre
-          </div>
-          <div className="mx-2.5 hover:opacity-70  cursor-pointer text-2xl">
+          </a>
+          <a
+            href="#projects"
+            className="mx-2.5 hover:opacity-70  cursor-pointer text-2xl"
+          >
             projetos
-          </div>
-          <div className="mx-2.5 hover:opacity-70 cursor-pointer text-2xl">
-            contato
-          </div>
+          </a>
+          <a
+            href="#team"
+            className="mx-2.5 hover:opacity-70 cursor-pointer text-2xl"
+          >
+            time
+          </a>
         </div>
       </div>{" "}
     </div>

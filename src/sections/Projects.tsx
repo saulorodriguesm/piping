@@ -2,7 +2,7 @@ import Assets from "../assets/Assets";
 
 const Projects = () => {
   return (
-    <div className="p-10 bg-off-white">
+    <div id="projects" className="p-10 bg-off-white">
       <div className="max-w-screen-xl m-auto ">
         <h3> Projetos </h3>
         <div className="flex justify-between mb-20">

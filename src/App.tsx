@@ -7,7 +7,7 @@ import Team from "./sections/Team";
 
 function App() {
   return (
-    <div>
+    <div className="relative">
       <Header />
       <Banner />
       <About />

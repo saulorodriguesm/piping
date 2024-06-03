@@ -2,7 +2,7 @@ import Assets from "../assets/Assets";
 
 const Team = () => {
   return (
-    <div className="p-10 ">
+    <div id="team" className="p-10 ">
       <div className="max-w-screen-xl m-auto">
         <h3> Conheça o time</h3>
         <div className="w-100  text-black">
@@ -17,12 +17,12 @@ const Team = () => {
               className="border-solid border-2 border-piping-blue rounded-lg mb-6 w-72 h-72 "
               src={Assets.profile}
             />
-            <div className="ml-6">
+            <div className="ml-6 font-bold">
               {" "}
               <div className="">Gabriela Rodrigues </div>
               <div>Projetista</div>
               <div>Formada em Engenharia</div>
-              <div>
+              <div className="font-light text-black">
                 {" "}
                 João Silva é um engenheiro com cinco anos de experiência,
                 especializado em engenharia civil. Durante sua carreira, ele
@@ -38,12 +38,12 @@ const Team = () => {
             </div>
           </div>
           <div className="flex justify-end text-right">
-            <div className="mr-6">
+            <div className="mr-6 font-bold">
               {" "}
               <div>Paulo Silva </div>
               <div>Engenheiro</div>
               <div>Formada em Engenharia</div>{" "}
-              <div>
+              <div className="text-black font-light">
                 {" "}
                 João Silva é um engenheiro com cinco anos de experiência,
                 especializado em engenharia civil. Durante sua carreira, ele
