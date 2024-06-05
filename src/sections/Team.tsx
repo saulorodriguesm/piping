@@ -1,4 +1,3 @@
-import Assets from "../assets/Assets";
 
 const Team = () => {
   return (
