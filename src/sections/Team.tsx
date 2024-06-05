@@ -13,10 +13,7 @@ const Team = () => {
           desafios complexos e entregar resultados excepcionais em todos os
           nossos empreendimentos de engenharia. Conheça um pouco deles abaixo:
           <div className="md:flex w-100 mt-10">
-            <img
-              className="border-solid border-2 border-piping-blue rounded-lg mb-6 w-72 h-72 "
-              src={Assets.profile}
-            />
+            <img className="border-solid border-2 border-piping-blue rounded-lg mb-6 w-72 h-72 " />
             <div className="ml-6 font-bold">
               {" "}
               <div className="">Gabriela Rodrigues </div>
@@ -58,10 +55,7 @@ const Team = () => {
               </div>
             </div>
 
-            <img
-              className="border-solid border-2 border-piping-blue  rounded-lg mb-6 w-72 h-72 "
-              src={Assets.profile}
-            />
+            <img className="border-solid border-2 border-piping-blue  rounded-lg mb-6 w-72 h-72 " />
           </div>
         </div>
       </div>
