@@ -7,7 +7,7 @@ export default {
         "piping-blue": "#18436e",
       },
       backgroundImage: {
-        worker: "url('./src/assets/background.png')",
+        worker: "url('./src/assets/background.jpg')",
       },
       backgroundColor: {
         "off-white": "#f0f0f0",
