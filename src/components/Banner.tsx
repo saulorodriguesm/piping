@@ -3,7 +3,7 @@ import Contact from "./Contact";
 
 const Banner = () => {
   return (
-    <div className="bg-worker h-screen bg-cover bg-mobile md:bg-initial">
+    <div className="bg-[url('../assets/background.jpg') h-screen bg-cover bg-mobile md:bg-initial">
       <div className="max-w-screen-xl m-auto flex items-center h-full justify-end">
         <div className="absolute right-0 top-48 w-7/12 md:static md:w-5/12">
           {" "}
