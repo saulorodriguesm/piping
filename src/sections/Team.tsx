@@ -12,7 +12,7 @@ const Team = () => {
           multidisciplinar e dedicada, estamos preparados para enfrentar
           desafios complexos e entregar resultados excepcionais em todos os
           nossos empreendimentos de engenharia. Conheça um pouco deles abaixo:
-          <div className="flex w-100 mt-10">
+          <div className="md:flex w-100 mt-10">
             <img
               className="border-solid border-2 border-piping-blue rounded-lg mb-6 w-72 h-72 "
               src={Assets.profile}
@@ -37,7 +37,7 @@ const Team = () => {
               </div>
             </div>
           </div>
-          <div className="flex justify-end text-right">
+          <div className="md:flex justify-end text-right">
             <div className="mr-6 font-bold">
               {" "}
               <div>Paulo Silva </div>

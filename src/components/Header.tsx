@@ -6,7 +6,7 @@ const Header = () => {
       <div className="h-full max-w-screen-xl m-auto flex justify-between w-full">
         <div className="h-full">
           {" "}
-          <img className="h-full" src={Assets.blueLogo} />
+          {window.innerWidth > 768 ? <img className="h-full" src={Assets.blueLogo} /> : <img src={Assets.mobileLogo}/>}
         </div>
 
         <div className="flex items-center">

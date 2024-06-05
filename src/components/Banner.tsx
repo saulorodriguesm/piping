@@ -3,13 +3,13 @@ import Contact from "./Contact";
 
 const Banner = () => {
   return (
-    <div className="bg-cover bg-worker h-screen">
+    <div className="bg-worker h-screen bg-cover bg-mobile md:bg-initial">
       <div className="max-w-screen-xl m-auto flex items-center h-full justify-end">
-        <div className="">
+        <div className="absolute right-0 top-48 w-7/12 md:static md:w-5/12">
           {" "}
           <div className="mb-5">
             {" "}
-            <h1 className="text-5xl">Simplifique com a πping</h1>
+            <h1 className="text-3xl md:text-5xl">Simplifique com a πping</h1>
             <h2 className="text-1xl">
               Excelência em Projetos, Construções e Montagens Industriais.
             </h2>{" "}
