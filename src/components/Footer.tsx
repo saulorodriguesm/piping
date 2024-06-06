@@ -3,7 +3,7 @@ import Assets from "../assets/Assets";
 const Footer = () => {
   return (
     <div className="bg-piping-blue p-10">
-      <div className="fixed bottom-4 right-4 cursor-pointer w-16 ease-in duration-300">
+      <div className="fixed bottom-4 right-4 cursor-pointer w-14 ease-in duration-300">
         <a href={`https://api.whatsapp.com/send?phone=+5511991530393`}>
           {" "}
           <img src={Assets.whatsapp} />

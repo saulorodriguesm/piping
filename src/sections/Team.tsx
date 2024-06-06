@@ -1,4 +1,3 @@
-
 const Team = () => {
   return (
     <div id="team" className="p-10 ">
@@ -13,7 +12,7 @@ const Team = () => {
           nossos empreendimentos de engenharia. Conheça um pouco deles abaixo:
           <div className="md:flex w-100 mt-10">
             <img className="border-solid border-2 border-piping-blue rounded-lg mb-6 w-72 h-72 " />
-            <div className="ml-6 font-bold">
+            <div className="md:ml-6 font-bold">
               {" "}
               <div className="">Gabriela Rodrigues </div>
               <div>Projetista</div>
@@ -33,8 +32,13 @@ const Team = () => {
               </div>
             </div>
           </div>
-          <div className="md:flex justify-end text-right">
-            <div className="mr-6 font-bold">
+          <div className="md:flex md:justify-end md:text-right mt-10">
+            {window.innerWidth < 768 ? (
+              <img className="border-solid border-2 border-piping-blue  rounded-lg mb-6 w-72 h-72 " />
+            ) : (
+              ""
+            )}
+            <div className="md:mr-6 font-bold">
               {" "}
               <div>Paulo Silva </div>
               <div>Engenheiro</div>
@@ -53,8 +57,11 @@ const Team = () => {
                 profissional valioso para qualquer equipe de engenharia.
               </div>
             </div>
-
-            <img className="border-solid border-2 border-piping-blue  rounded-lg mb-6 w-72 h-72 " />
+            {window.innerWidth < 768 ? (
+              ""
+            ) : (
+              <img className="border-solid border-2 border-piping-blue  rounded-lg mb-6 w-72 h-72 " />
+            )}
           </div>
         </div>
       </div>
