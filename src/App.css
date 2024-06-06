@@ -20,7 +20,12 @@
   margin: 10% auto;
   padding: 5px 20px 13px 20px;
   border-radius: 10px;
-  background: -moz-linear-gradient(#fff, #999);
+  background: #fff;
+}
+@media (max-width: 767px) {
+  .modalDialog > div {
+    width: 90%;
+  }
 }
 .close {
   background: #606061;

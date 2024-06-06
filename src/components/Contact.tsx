@@ -2,7 +2,7 @@ import { useState } from "react";
 
 const Contact = () => {
   const [message, setMessage] = useState<string>();
-  const phone = "+5511999999999";
+  const phone = "+5511991530393";
 
   const handleChange = (e: React.ChangeEvent<HTMLTextAreaElement>) => {
     const { value } = e.target;

@@ -2,14 +2,14 @@ import Assets from "../assets/Assets";
 
 const Header = () => {
   return (
-    <div className="absolute py-2 mt-3 top-0 w-full flex h-20 px-10">
+    <div className="absolute md:py-2 md:mt-3 top-0 w-full flex px-4 md:h-20 md:px-10">
       <div className="h-full max-w-screen-xl m-auto flex justify-between w-full">
         <div className="h-full">
           {" "}
           {window.innerWidth > 768 ? (
             <img className="h-full" src={Assets.blueLogo} />
           ) : (
-            <img src={Assets.mobileLogo} />
+            <img className="h-24" src={Assets.mobileLogo} />
           )}
         </div>
 
