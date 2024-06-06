@@ -9,7 +9,7 @@ const Footer = () => {
           <img src={Assets.whatsapp} />
         </a>
       </div>
-      <div className="max-w-screen-xl m-auto flex justify-between">
+      <div className="max-w-screen-xl m-auto md:flex justify-between">
         {" "}
         <div>
           {" "}
