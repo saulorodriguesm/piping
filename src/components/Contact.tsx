@@ -2,7 +2,7 @@ import { useState } from "react";
 
 const Contact = () => {
   const [message, setMessage] = useState<string>();
-  const phone = "+5511991530393";
+  const phone = "11991530393";
 
   const handleChange = (e: React.ChangeEvent<HTMLTextAreaElement>) => {
     const { value } = e.target;
@@ -28,7 +28,7 @@ const Contact = () => {
         </div>
         <div className="my-5 flex flex-col">
           <a
-            className="rounded-md bg-piping-blue text-white p-2 hover:opacity-70 cursor-pointer text-center"
+            className="rounded-md bg-piping-blue text-white p-2 hover:opacity-90 cursor-pointer text-center"
             href={`https://api.whatsapp.com/send?phone=${phone}&text=${message}`}
           >
             {" "}

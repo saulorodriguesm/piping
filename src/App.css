@@ -27,17 +27,13 @@
     width: 90%;
   }
 }
-.close {
-  background: #606061;
-  color: #ffffff;
-  position: absolute;
-  right: -12px;
+.app-modal--close {
+  background: #ad1a1c;
   text-align: center;
-  top: -10px;
-  width: 24px;
-  border-radius: 12px;
-  box-shadow: 1px 1px 3px #000;
+  border-radius: 5px;
+  color: #ffffff;
+  width: 25px;
 }
-.close:hover {
-  background: #00d9ff;
+.app-modal--close:hover {
+  opacity: 0.9;
 }
