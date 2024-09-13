@@ -11,7 +11,7 @@ const Banner = () => {
             {" "}
             <h1 className="text-3xl md:text-5xl">Simplifique com a πping</h1>
             <h2 className="text-1xl">
-              Excelência em Projetos, Construções e Montagens Industriais.
+              Excelência em Projetos.
             </h2>{" "}
           </div>
           <div>
