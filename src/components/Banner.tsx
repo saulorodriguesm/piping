@@ -15,7 +15,7 @@ const Banner = () => {
           <div>
             <a
               href="#contato"
-              className="rounded-md p-2 text-white bg-piping-blue hover:opacity-70 cursor-pointer mt-20"
+              className="rounded-md p-2 text-white bg-piping-blue hover:opacity-90 cursor-pointer mt-20"
             >
               {" "}
               entrar em contato{" "}
