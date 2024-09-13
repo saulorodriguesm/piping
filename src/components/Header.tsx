@@ -13,7 +13,7 @@ const Header = () => {
           )}
         </div>
 
-        <div className="flex items-center">
+        {/* <div className="flex items-center">
           <a
             href="#about"
             className="mx-2.5 hover:opacity-70 cursor-pointer text-xl md:text-2xl"
@@ -32,7 +32,7 @@ const Header = () => {
           >
             time
           </a>
-        </div>
+        </div> */}
       </div>{" "}
     </div>
   );

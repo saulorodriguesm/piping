@@ -22,19 +22,16 @@ const Footer = () => {
           </div>{" "}
         </div>
         <div className="flex flex-col justify-between text-white text-xs">
-          <div className="my-3 text-white">paulo.silva@pi-ping.com </div>
           <div className="flex my-3">
-            <img className="w-6 mr-3" src={Assets.instagram} />
-            <img className="w-6" src={Assets.linkedin} />
-          </div>
-          <div className="text-white">
-            desenvolvido por{" "}
             <a
-              target="_blank"
-              href="https://www.linkedin.com/in/saulorodriguesm"
+              className="mr-3"
+              href="https://www.linkedin.com/company/%CF%80ping-projetos-de-engenharia/about/"
             >
-              : Saulo Rodrigues
-            </a>{" "}
+              <img className="w-6" src={Assets.linkedin} />
+            </a>
+            <a href="">
+              <img className="w-6" src={Assets.instagram} />
+            </a>
           </div>
         </div>
       </div>
